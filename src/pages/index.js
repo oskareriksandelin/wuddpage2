@@ -64,10 +64,30 @@ const IndexPage = ({data}) => (
 
       <div className="projectcontainer container">
       <div className="project row">
-          <h7>Starta ett projekt med oss.</h7>
-          <h8>Fyll i information för att starta ett projekt med oss. </h8>
+        <div className="projectinfo">
+            <h7>Starta ett projekt med oss.</h7>
+          </div>
           <div className="projectform">
-
+          <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Your Name: <input type="text" name="name" /></label>   
+              </p>
+              <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Your Role: <select name="role[]" multiple>
+                  <option value="leader">Leader</option>
+                  <option value="follower">Follower</option>
+                </select></label>
+              </p>
+              <p>
+                <label>Message: <textarea name="message"></textarea></label>
+              </p>
+              <p>
+                <button type="submit">Send</button>
+              </p>
+          </form>
           </div>
       </div>
       </div>
