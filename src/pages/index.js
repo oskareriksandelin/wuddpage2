@@ -68,7 +68,12 @@ const IndexPage = ({data}) => (
             <h7>Starta ett projekt med oss.</h7>
           </div>
           <div className="projectform">
-          <form name="contact" method="POST" data-netlify="true">
+          <form 
+          name="contact" 
+          method="POST" 
+          data-netlify="true"
+          action="/omoss"
+          >
               <p>
                 <label>Your Name: <input type="text" name="name" /></label>   
               </p>
