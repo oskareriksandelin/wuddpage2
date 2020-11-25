@@ -74,6 +74,7 @@ const IndexPage = ({data}) => (
           data-netlify="true"
           action="/omoss"
           >
+            <input type="hidden" name="contact" value="contact" />
               <p>
                 <label>Your Name: <input type="text" name="name" /></label>   
               </p>
