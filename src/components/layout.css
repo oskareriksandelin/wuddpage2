@@ -1,0 +1,122 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+body {
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  margin: 0;
+}
+
+@media screen and (min-width: 1000px){
+  .mastercontainer{
+      padding-left: 40px;
+      padding-right: 40px;
+  }  
+}
+
+h1{
+    font-size: 65px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+h3{
+  font-size: 45px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+h4{
+  font-size: 32px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+h5{
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #404040;
+}
+
+h6{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #737381;
+  padding-bottom: 2%;
+}
+
+h7{
+  font-size: 120px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #404040;
+}
+
+h8{
+    font-size: 32px;
+      font-weight: 500;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #404040;
+}
+
+.footercontainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.footerimg{
+  display: flex;
+  justify-content: center;
+  align-content: center;  
+}
+
+.footerinfo{
+  display: flex;
+  justify-content: center;
+  align-content: center;  
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-family: 'Inter', sans-serif; 
+  padding: 8% 0 2% 0;
+}
+
+/* .privacylink{
+  text-decoration: none;
+  color: black;
+} */
+

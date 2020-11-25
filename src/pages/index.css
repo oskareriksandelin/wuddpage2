@@ -1,0 +1,318 @@
+.moptions{
+    color: #fff;
+}
+
+.fwarrow{
+    width: 5%;
+    height: 5%;
+}
+
+.arrowcontainer{
+    height: 100%;
+}
+
+.link1{
+    
+}
+
+.link1::after{
+    background-image: url(../images/fvarrow.svg);
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    background-position: right center;
+    position: absolute;
+    height: 1.8rem;
+    width: 1.8rem;
+    transition: .2s ease transform;
+    content: "";
+}
+
+.background{
+    position: absolute;
+    z-index: -2;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height:100%;
+    top: -50px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5))  ;
+}
+
+.linkcontainerfv{
+    display: flex;
+    justify-content: center;
+}
+
+.background2{
+    position: relative;
+    z-index: -2;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height:100vh;
+    top: -50px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5))  ;
+}
+
+.firstview{
+    padding: 10% 15%;
+    height: 90vh;
+    align-items: center;
+}
+
+.secondview{
+    width: 100%;
+}
+
+.secondpic{
+    width: 100%;
+}
+
+.secondinfo{
+    height: 100%;
+}
+
+.secondrow{
+    height: 100%;
+}
+
+
+a{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFC480;
+    text-decoration: none;
+}
+
+.alink{
+    font-size: 16px;
+    padding-top: 5%;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+h2{
+    padding:5% 5% 3% 5%;
+    color: #fff;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+.sinfo1{
+    padding: 0 0 0 7%;
+}
+
+.sinfo2{
+    padding: 0 7% 0 2%;
+}
+
+.infoimg{
+    width: 100%;
+    transition: transform 500ms ease 0s;  
+}
+
+.uspimg{
+    width: 100%;
+    height: 100%;
+}
+
+.usptext{
+    padding-bottom: 5%;
+}
+
+.imagecontainer{
+    overflow: hidden;
+}
+
+.infoimg:hover {
+    transform: scale(1.05); 
+  }
+
+h4{
+    padding: 5% 0 2% 0;
+}
+
+.thirdrow{
+    padding: 10% 5% 0 5%;
+}
+
+.fourthrow{
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10% 0 10%;
+}
+
+.valuebox{
+    padding: 2%;
+}
+
+.intresse{
+    text-align: left;
+    color: #7B665E;
+}
+
+.footerimgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.footerimg{
+    width: 45px;
+}
+
+.usprow{
+    padding: 5% 5% 5% 5%;
+}
+
+.uspcontainer{
+    padding: 2%;
+}
+
+.newscontainer{
+    width: 60%;
+}
+
+.newscolumn{
+    display: flex;
+    justify-content: center;
+}
+
+.projectcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.project{
+    padding-top: 15%;
+    width: 100%;
+}
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 800px) {
+    .background2{
+        height: 60vh;
+        background-position: 48% 50%;
+    }
+
+    .firstview{
+        padding: 10% 5%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 14px; 
+    }
+
+    .sinfo1{
+        padding: 0 10% 2% 10%;
+    }
+    
+    .sinfo2{
+        padding: 0 10% 0 10%;
+    }
+
+    .thirdrow{
+        padding: 15% 10% 0 10%;
+    }
+
+    .valuebox{
+        padding: 2% 2% 10% 2%;
+    }
+
+    .uspcontainer{
+        padding: 5%;
+    }
+
+    .link1::after{
+        background-image: url(../images/fvarrow.svg);
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+        background-position: right center;
+        position: absolute;
+        height: 1.25rem;
+        width: 1.25rem;
+        transition: .2s ease transform;
+        content: "";
+    }
+    
+    }
