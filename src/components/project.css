@@ -1,0 +1,117 @@
+
+h7{
+    font-size: 120px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #404040;
+  }
+
+  h9{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #404040;
+  }
+
+  .footerimgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.footerimg{
+    width: 45px;
+}
+
+.projectinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.projecttext{
+    font-size: 18px;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.projectbutton{
+    height: 40px;
+    width: 103px;
+    border-radius: 40px;
+    border: none;
+    color: #737381;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1;
+    text-decoration: none;
+    transition: all .2s ease;
+    transition-delay: 0s;
+}
+
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5% 0 5% 0;
+}
+
+
+h7{
+   font-size: 65px; 
+}
+
+input{
+    width: 100%;
+}
+
+.formtext{
+    color: #737381;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top:5% ;
+}
+
+.inputform{
+    font-size: 1.25rem;
+    color: #042825;
+    font-weight: 400;
+    padding: 3%;
+    margin: 2% 0;
+    background: #E3E0DE;
+    border: none;
+    border-radius: 0;
+    outline: none!important;
+    width: 100%;
+}
+
+
+textarea{
+    font-family: 'Inter', sans-serif;
+}
+
+.contactspacetitle{
+
+}
+
+.contactspacetext{
+
+}
+
+.contactimgcontainer{
+    width: 100%;
+}
+
+.contactimg{
+    width: 100%;
+    padding:0;
+}
+
+.contactinfo{
+    padding: 0;
+}
+

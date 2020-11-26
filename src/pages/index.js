@@ -62,7 +62,7 @@ const IndexPage = ({data}) => (
         </div>
       </div>
 
-      <div className="projectcontainer container">
+      {/* <div className="projectcontainer container">
       <div className="project row">
         <div className="projectinfo">
             <h7>Starta ett projekt med oss.</h7>
@@ -96,7 +96,7 @@ const IndexPage = ({data}) => (
           </form>
           </div>
       </div>
-      </div>
+      </div> */}
 
 
       {/* <div className="row thirdrow">
@@ -131,9 +131,9 @@ const IndexPage = ({data}) => (
       </div> */}
 
 
-      <div className="footerimgcontainer">
+      {/* <div className="footerimgcontainer">
           <img className="footerimg" src={data.datoCmsFooter.footerimg.url} alt=""/>
-      </div>
+      </div> */}
     </div>
   </Layout>
 )

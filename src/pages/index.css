@@ -167,16 +167,7 @@ h4{
     color: #7B665E;
 }
 
-.footerimgcontainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5%;
-}
 
-.footerimg{
-    width: 45px;
-}
 
 .usprow{
     padding: 5% 5% 5% 5%;
@@ -314,5 +305,15 @@ h4{
         transition: .2s ease transform;
         content: "";
     }
+
+    .newscontainer{
+        width: 90%;
+    }
+
+    h5{
+        font-size: 18px;
+    }
+
+
     
     }

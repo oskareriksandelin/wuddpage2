@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import 'bootstrap/dist/css/bootstrap-grid.css'
 import Header from "./header"
+import Project from "./project"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -26,8 +27,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div>
+      <div className="pagecontainer">
         <main>{children}</main>
+        <Project/>
         <footer>
         <div className="footercontainer"> 
             <div className="footerinfo row">

@@ -10,6 +10,7 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
   margin: 0;
+  width: 100%;
 }
 
 @media screen and (min-width: 1000px){
@@ -74,14 +75,7 @@ h6{
   padding-bottom: 2%;
 }
 
-h7{
-  font-size: 120px;
-  font-weight: 500;
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #404040;
-}
+
 
 h8{
     font-size: 32px;
@@ -112,7 +106,11 @@ h8{
   font-size: 0.8rem;
   font-weight: 300;
   font-family: 'Inter', sans-serif; 
-  padding: 8% 0 2% 0;
+  padding: 5% 0 2% 0;
+}
+
+.pagecontainer{
+  max-width: 100%;
 }
 
 /* .privacylink{
