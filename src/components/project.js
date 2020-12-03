@@ -28,8 +28,23 @@ export default function Header({siteTitle}) {
   
   return (
   <project>
-  <div className="container">
-  <div className="project">
+    
+    <div className="container newsc">
+        <div className="newsrow row">
+          <div className="col-12 newscolumn">
+            <div className="newscontainer">
+              <a href="">
+                <h6> 2020 - 08/17 </h6>
+                <h5>Forskningsbidrag till byggföretag för att utveckla marknadens mest klimatsmarta väggar.</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div className="projectcontainer container-fluid">
+  <div className="project row">
+      <div className="projectspace">
         <div className="projectinfo col-12">
             <h7>Starta ett projekt med oss.</h7>
             {/* <h9>Fyll i information för att starta ett projekt med oss. </h9> */}
@@ -55,20 +70,6 @@ export default function Header({siteTitle}) {
                 </p> 
 
                 <p className="formtext">
-                    <label>Din mailadress: </label>     
-                    <Dropdown>
-                        <Dropdown.Toggle variant="success" id="dropdown-basic">
-                            Dropdown Button
-                        </Dropdown.Toggle>
-
-                        <Dropdown.Menu>
-                                <Dropdown.Item value="leader">Leader</Dropdown.Item>
-                                <Dropdown.Item value="follower">Follower</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
-                </p>
-
-                <p className="formtext">
                 <label>Meddelande </label> 
                 <textarea name="message" placeholder="Meddelande" className="inputform" rows="6">
                 </textarea> 
@@ -82,25 +83,42 @@ export default function Header({siteTitle}) {
           </div>
 
           <div className="projectcontact">
-            <h9>Kontakta oss direkt annars. </h9> 
             <div className="col-12 col-md-6 contactinfo">
                 <div className="contactspace">
-                    <p className="contactspacetitle">info@wudd.se</p>
+                    <h11 className="contactspacetitle">info@wudd.se</h11>
+                    <p className="contactspacetext">Nya projekt, press och allmänna frågor.</p>
+                </div>
+                <div className="contactspace">
+                    <h11 className="contactspacetitle">info@wudd.se</h11>
+                    <p className="contactspacetext">Nya projekt, press och allmänna frågor.</p>
+                </div>
+                <div className="contactspace">
+                    <h11 className="contactspacetitle">info@wudd.se</h11>
                     <p className="contactspacetext">Nya projekt, press och allmänna frågor.</p>
                 </div>
             </div>
-            <div className="col-12 col-md-6 contactimg">
+            {/* <div className="col-12 col-md-6 contactimg">
                 <img className="contactimg" src={data.datoCmsIndex.usppic1.url} alt=""/>
-            </div>
+            </div> */}
+
           </div>
-      </div>
+            </div>
+
+          </div>
 
       <div className="footerimgcontainer">
           <img className="footerimg" src={data.datoCmsFooter.footerimg.url} alt=""/>
       </div>
+      
+
+
     </div>
+
     
 </project>
 )
 
       }
+
+
+     

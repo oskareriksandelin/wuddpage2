@@ -8,13 +8,22 @@ h7{
     color: #404040;
   }
 
-  h9{
-    font-size: 32px;
+h9{
+    font-size: 1.875rem;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     color: #404040;
+  }
+
+  h11{
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    padding:0;
+    color: #404040;  
   }
 
   .footerimgcontainer{
@@ -31,26 +40,40 @@ h7{
 .projectinfo{
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 .projecttext{
-    font-size: 18px;
+    font-size: 1rem;
     padding-top: 5%;
-    padding-bottom: 10%;
 }
 
 .projectbutton{
-    height: 40px;
-    width: 103px;
-    border-radius: 40px;
-    border: none;
-    color: #737381;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 50px;
+    padding: 0 30px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #7B665E;
+    color: #fff;
+    line-height: 1.4;
+    font-family:'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1;
-    text-decoration: none;
-    transition: all .2s ease;
-    transition-delay: 0s;
+    border-radius: 0;
+    border: 0;
+    text-decoration: none !important;
+    font-size: 16px;
+    font-size: 1rem
+    
 }
 
 .buttoncontainer{
@@ -59,10 +82,16 @@ h7{
     width: 100%;
     padding: 5% 0 5% 0;
 }
+.contactspacetext{
+    padding-top: 2%;
+}
 
+.contactspace{
+    padding-top: 10%; 
+}
 
 h7{
-   font-size: 65px; 
+   font-size: 90px; 
 }
 
 input{
@@ -70,19 +99,19 @@ input{
 }
 
 .formtext{
-    color: #737381;
-    font-weight: 500;
-    font-size: 1.5rem;
-    padding-top:5% ;
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top:5%;
 }
 
 .inputform{
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #042825;
     font-weight: 400;
     padding: 3%;
     margin: 2% 0;
-    background: #E3E0DE;
+    background: #F0F2F2;
     border: none;
     border-radius: 0;
     outline: none!important;
@@ -92,14 +121,6 @@ input{
 
 textarea{
     font-family: 'Inter', sans-serif;
-}
-
-.contactspacetitle{
-
-}
-
-.contactspacetext{
-
 }
 
 .contactimgcontainer{
@@ -114,4 +135,77 @@ textarea{
 .contactinfo{
     padding: 0;
 }
+
+.newscontainer{
+    width: 60%;
+}
+
+.newscolumn{
+    display: flex;
+    justify-content: center;
+}
+
+.projectcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10%;
+    
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.projectspace{
+    width: 50%;
+}
+
+
+.projectform{
+    padding: 0;
+}
+
+.projectcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 770px){
+.newsc{
+   
+}
+
+.projectspace{
+    width: 100%;
+}
+
+.project{
+    padding: 7%;
+    width: 100%;
+}
+
+.newscolumn{
+    padding: 0;
+}
+
+.newsrow{
+    padding: 20% 10%;
+}
+}
+
+.newform{
+    width: 100%;
+}
+
+.projectbutton{
+    width: 100%;
+}
+
+/* Test av ny form */
 

@@ -25,42 +25,52 @@ const IndexPage = ({data}) => (
       }}>
     </div>
     <div className="secondinfo">
-      <div className="row secondrow">
-        <div className="col-md-6 col-12 sinfo1">
-          <h3>Nästa generations trähus.</h3> 
-        </div>
-        <div className="col-md-6 col-12 sinfo2">
-          <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat placerat magna sem tempor pretium mauris odio proin tempus. Condimentum venenatis sed nunc consequat, varius. Massa nunc ante nisi diam. Nullam dignissim et felis vel sit et felis. Sit magna urna non sodales. Eget eget proin mattis vel mauris lectus in at. Faucibus nunc, tempor, aliquet amet, consectetur. Quam morbi elit malesuada interdum dictum arcu nulla. Sit tempus vulputate nec ut dui ornare cursus enim mi. Feugiat morbi faucibus blandit commodo pellentesque.</p>
-          {/* <a href="" className="alink">ullamcorper neque, lobortis felis.</a> */}
-        </div>
-      </div>
-      <div className="usprow row">
-        <div className="col-12 col-md-6 uspcontainer">
-          <h4>Ett system för utmanande arkitektur</h4>
-          <p className="usptext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat placerat magna sem tempor pretium mauris odio proin tempus. Condimentum venenatis sed nunc consequat, varius. </p>
-          <div className="uspimgcontainer">
-            <img className="uspimg" src={data.datoCmsIndex.usppic1.url} alt=""/>
+
+      <div className="container-fluid">
+        <div className="secondrow row">
+          <div className="col-md-6 col-12 sinfo1">
+            <h3>Nästa generations trähus.</h3> 
+          </div>
+          <div className="col-md-6 col-12 sinfo2">
+            <p className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat placerat magna sem tempor pretium mauris odio proin tempus. Condimentum venenatis sed nunc consequat, varius. Massa nunc ante nisi diam. Nullam dignissim et felis vel sit et felis. Sit magna urna non sodales. Eget eget proin mattis vel mauris lectus in at. Faucibus nunc, tempor, aliquet amet, consectetur. Quam morbi elit malesuada interdum dictum arcu nulla. Sit tempus vulputate nec ut dui ornare cursus enim mi. Feugiat morbi faucibus blandit commodo pellentesque.</p>
+            {/* <a href="" className="alink">ullamcorper neque, lobortis felis.</a> */}
           </div>
         </div>
-        <div className="col-12 col-md-6 uspcontainer">
-        <h4>Klimatsmart och energieffektivt.</h4>
-        <p className="usptext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat placerat magna sem tempor pretium mauris odio proin tempus. Condimentum venenatis sed nunc consequat, varius. </p>
-          <div className="uspimgcontainer fade-in">
-            <img className="uspimg" src={data.datoCmsIndex.usppic2.url} alt=""/>
+      </div>
+      
+      <div className="container-fluid">
+        <div className="usprow row">
+          <div className="col-12 col-md-6 uspcontainer">
+            
+          <div className="uspimgcontainer">
+              <img className="uspimg" src={data.datoCmsIndex.usppic1.url} alt=""/>
+            </div>
+            <h4>Ett system för utmanande arkitektur</h4>
+            <p className="usptext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat placerat magna sem tempor pretium mauris odio proin tempus. Condimentum venenatis sed nunc consequat, varius. </p>
+          </div>
+          <div className="col-12 col-md-6 uspcontainer">
+         <div className="uspimgcontainer fade-in">
+              <img className="uspimg" src={data.datoCmsIndex.usppic2.url} alt=""/>
+            </div>
+            <h4>Klimatsmart och energieffektivt.</h4>
+          <p className="usptext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat placerat magna sem tempor pretium mauris odio proin tempus. Condimentum venenatis sed nunc consequat, varius. </p>
+            
           </div>
         </div>
       </div>
 
-      <div className="newsrow row">
-        <div className="col-12 newscolumn">
-          <div className="newscontainer">
-            <a href="">
-              <h6> 2020 - 08/17 </h6>
-              <h5>Forskningsbidrag till byggföretag för att utveckla marknadens mest klimatsmarta väggar.</h5>
-            </a>
+      {/* <div className="container newsc">
+        <div className="newsrow row">
+          <div className="col-12 newscolumn">
+            <div className="newscontainer">
+              <a href="">
+                <h6> 2020 - 08/17 </h6>
+                <h5>Forskningsbidrag till byggföretag för att utveckla marknadens mest klimatsmarta väggar.</h5>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="projectcontainer container">
       <div className="project row">

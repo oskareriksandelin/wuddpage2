@@ -34,7 +34,7 @@ export default function Header({siteTitle}) {
   
   return (
   <header>
-  <div className="container">
+  <div className="container-fluid">
       <div className="row menurow">
         <div className="hamburgermobile col-md-4 col-6 ">
           <div className="container">
@@ -57,12 +57,12 @@ export default function Header({siteTitle}) {
             </div>
           </div>
         </div>
-          <div className="logocontainer col-md-6">
+          <div className="logocontainer col-4">
             <Link to="/">
             <img src={data.datoCmsHeader.sitelogo.url} alt="logo" className="logoimg"/>
             </Link>
           </div>
-          <div className="webmenucontainer col-6">
+          <div className="webmenucontainer col-8">
                 <Link to="/omoss/" className="webmenuitem"> HEM </Link>
                 <Link to="/omoss/" className="webmenuitem"> OM OSS </Link>
                 <Link to="/omoss/" className="webmenuitem"> STARTA ETT PROJEKT </Link>

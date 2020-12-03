@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
         <Project/>
         <footer>
         <div className="footercontainer"> 
-            <div className="footerinfo row">
+            <div className="footerinfo">
             © {new Date().getFullYear()}, WUDD Construction AB / 
             {/* <a href="" className="privacylink">/ Privacy notice</a> */}
             </div>
